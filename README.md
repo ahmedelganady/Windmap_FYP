@@ -8,11 +8,13 @@ Wind affects how a drone flies. It tilts into the wind and works harder to hold 
 Simulation phase: testing how accurately wind can be estimated, and what limits it.
 
 ## Repository
+```
 simulations/
 ├── windmap/          shared code: drag models, airframes, physics, error analysis, plotting
 ├── tests/            tests for windmap/
 ├── level1_steady/    steady-hover error analysis and figures
 └── level2_dynamic/   dynamic simulation (RotorPy)
+```
 
 ## Quick start
 
