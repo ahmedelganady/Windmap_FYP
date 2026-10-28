@@ -10,3 +10,6 @@ dependencies = ["numpy", "matplotlib"]
 
 [tool.setuptools]
 packages = ["windmap"]
+
+[project.optional-dependencies]
+level2 = ["rotorpy==3.0.0", "scipy"]
